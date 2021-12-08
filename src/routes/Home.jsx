@@ -1,9 +1,7 @@
-import React from 'react'
-
 const Home = () => {
     return (
         <div>
-            <h2>Welcome to my Pokemons List</h2>
+            <h2>Welcome to Rick & Morty by Moshe Fischman</h2>
         </div>
     )
 }
