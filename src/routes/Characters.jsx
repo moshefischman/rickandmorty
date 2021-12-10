@@ -23,7 +23,7 @@ const Characters = () => {
             var api = `https://rickandmortyapi.com/api/character`;
             if (nametosearch || optionGender || optionStatus) {
                 api += '?'
-                let hasParam = true;
+                let hasParam = false;
                 if (nametosearch) {
                     if (hasParam) api += '&';
                     api += `name=${nametosearch}`; 
